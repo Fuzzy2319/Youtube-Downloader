@@ -1,0 +1,12 @@
+{
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "Youtube Downloader",
+  "main": "app.js",
+  "author": {
+    "name": "Fuzzy2319"
+  },
+  "dependencies": {
+    "ytdl-core": "^4.5.0"
+  }
+}
