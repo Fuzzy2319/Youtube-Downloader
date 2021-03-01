@@ -1,3 +1,4 @@
 @ECHO off
 
-node .\app.js %~
+cd %~dp0
+node app.js %*

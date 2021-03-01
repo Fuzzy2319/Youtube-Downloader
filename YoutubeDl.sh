@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
-node ./app.js $@
+cd $(readlink -f $0)
+node app.js $*
